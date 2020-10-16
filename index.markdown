@@ -3,9 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Hyde
+title: PACO
 ---
 
-# I'm a header 1!
+<!-- # I'm a header 1! -->
+# I'm Paco Kradejov
 
-I'm a Paragraph
+I like to steal money from the bank with my two gay sons: Milen Kradejov and Sponge-bob Kradejov.
