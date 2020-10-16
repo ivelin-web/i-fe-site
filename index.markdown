@@ -3,20 +3,16 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: PACO
+title: Hyde
 ---
 
-<!-- # I'm a header 1! -->
-# I'm Paco Kradejov
+# I'm a header 1!
 
-I like to steal money from the bank with my two gay sons: Milen Kradejov and Sponge-bob Kradejov.
+I'm just a paragraph
 
-I have very big robbery friends like:
++ First item
++ Second item
++ Third item
++ Forth item
++ Fifth item
 
-+ Milen
-+ Sponge-bob
-+ My girl
-+ Valio
-+ Gay-Girl friend of Sponge-bob
-+ Lucho-HUQ
-+ Kradeca ot sam vkashti zabravih mu imeto
