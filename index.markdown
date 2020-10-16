@@ -10,3 +10,13 @@ title: PACO
 # I'm Paco Kradejov
 
 I like to steal money from the bank with my two gay sons: Milen Kradejov and Sponge-bob Kradejov.
+
+I have very big robbery friends like:
+
++ Milen
++ Sponge-bob
++ My girl
++ Valio
++ Gay-Girl friend of Sponge-bob
++ Lucho-HUQ
++ Kradeca ot sam vkashti zabravih mu imeto
