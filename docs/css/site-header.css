@@ -17,7 +17,7 @@
     -moz-text-fill-color: transparent;
 }
 
-.site-header h1::before {
+.site-header a::before {
     content: '\f3a5';
     font-family: "Font Awesome 5 Free";
     font-weight: 700;
