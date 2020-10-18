@@ -1,6 +1,7 @@
 @import url('reset.css');
 @import url('typography.css');
 @import url('navigation.css');
+@import url('gallery.css');
 @import url('site-header.css');
 @import url('site-footer.css');
 
@@ -20,6 +21,7 @@ body {
     background: var(--color-main-bgrd);
     color: var(--color-main-text);
     padding: 2em 3em;
+    padding-bottom: 0;
 }
 
 .site-content {

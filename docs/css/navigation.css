@@ -26,3 +26,8 @@
     padding: 0.5em 1em;
     color: var(--color-main-link);
 }
+
+.main-nav ul li a:hover {
+    background: linear-gradient(to bottom, orange, rgba(0, 0, 0, 0));
+    color: #FFF;
+}

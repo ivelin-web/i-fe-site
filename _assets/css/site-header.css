@@ -8,7 +8,7 @@
 
 .site-header h1 {
     margin-bottom: 0;
-    background: linear-gradient(to top, #ff7e5f   , #feb47b);
+    background: linear-gradient(to top, rgb(245, 160, 4), rgb(238, 203, 4));
     text-transform: uppercase;
     letter-spacing: 0.1em;
     -webkit-background-clip: text;
