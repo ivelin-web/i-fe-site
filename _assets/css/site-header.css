@@ -17,12 +17,28 @@
     -moz-text-fill-color: transparent;
 }
 
+.site-header a::after,
 .site-header a::before {
-    content: '\f3a5';
     font-family: "Font Awesome 5 Free";
     font-weight: 700;
+}
+
+.site-header h1 a::before {
+    content: '\f3a5';
     font-size: 0.9em;
     padding-right: 0.3em;
+}
+
+.site-header #about::after {
+    content: '\f2bb';
+}
+
+.site-header #contacts::after {
+    content: '\f095';
+}
+
+.site-header #gallery::after {
+    content: '\f302';
 }
 
 .site-header nav {
