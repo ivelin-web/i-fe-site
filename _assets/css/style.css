@@ -8,10 +8,10 @@
 /* Variables  */
 
 :root {
-    --color-main-bgrd: #fafafa;
-    --color-main-text: rgba(0, 0, 0, 0.7);
+    --color-main-bgrd: rgba(0, 0, 0, 0.8);
+    --color-main-text: #fafafa;
     --color-main-link: orange;
-    --color-basic-border: rgba(0, 0, 0, 0.7);
+    --color-basic-border: #fafafa;
 
     --sizing-basic-border: 1px;
     --sizing-ws-base: 1.5em;

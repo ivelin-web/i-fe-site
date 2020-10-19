@@ -41,6 +41,10 @@
     content: '\f302';
 }
 
+.site-header #products::after {
+    content: '\f0d7';
+}
+
 .site-header nav {
 
 }

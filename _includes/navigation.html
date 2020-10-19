@@ -7,6 +7,13 @@
                 <span class="title">{{ page.title }}</span>
                 <span class="date">{{ page.data | date_to_string }}</span>
             </a>
+            {% if page.title == 'Products' %}
+            <ul>
+                <li><a id="clothes" href="clothes.html">CLOTHES</a></li>
+                <li><a id="foods" href="foods.html">FOODS</a></li>
+                <li><a id="drinks" href="drinks.html">DRINKS</a></li>
+            </ul>
+            {% endif %}
         </li>
         {% endif %}
         {% endfor %}
