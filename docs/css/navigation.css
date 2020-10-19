@@ -26,8 +26,11 @@
     padding: 0.5em 1em;
     color: var(--color-main-link);
     text-transform: uppercase;
+    outline: none;
+    transition: color 0.3s ease;
 }
 
+.main-nav ul li a:focus,
 .main-nav ul li a:hover {
     background: linear-gradient(to bottom, orange, rgba(0, 0, 0, 0));
     color: #FFF;

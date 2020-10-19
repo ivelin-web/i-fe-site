@@ -46,7 +46,7 @@
     display: block;
     position: relative;
     overflow: hidden;
-    border-radius: 1em;
+    border-radius: 1em; 
 }
 
 .gallery a::before {
