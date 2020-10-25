@@ -4,13 +4,16 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <script src="https://kit.fontawesome.com/fffb4a66ab.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
   </head>
   <body>
 
-    <header class="site-header">
-        <h1><a href="/">{{ site.title }}</a></h1>
-        {% include navigation.html %}
+    <header class="site-header banner">
+        <div class="inner">
+            <h1><a href="/">{{ site.title }}</a></h1>
+            {% include navigation.html %}
+            <a href="mailto:ivelinivanov1999@gmail.com?subject=Message Title&body=Message Content" class="button button-primary">Call us</a>
+        </div>
     </header>
 
     <main class="site-content">

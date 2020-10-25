@@ -1,0 +1,11 @@
+/* Variables  */
+
+:root {
+    --color-main-bgrd: rgba(0, 0, 0, 0.8);
+    --color-main-text: #fafafa;
+    --color-main-link: orange;
+    --color-basic-border: #fafafa;
+
+    --sizing-basic-border: 1px;
+    --sizing-ws-base: 1.5em;
+}

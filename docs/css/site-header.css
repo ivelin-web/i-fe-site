@@ -1,9 +1,32 @@
 .site-header {
+    border-bottom: var(--sizing-basic-border) solid var(--color-basic-border);
+    /* padding: var(--sizing-ws-base); */
+}
+
+.site-header .inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: var(--sizing-basic-border) solid var(--color-basic-border);
-    padding: var(--sizing-ws-base) 0;
+    padding: var(--sizing-ws-base);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.site-header.banner {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80') no-repeat center top;
+    background-size: cover;
+}
+
+.site-header.banner::after {
+    display: block;
+    content: '';
+    /* padding-top: calc((9 / 16) * 100%); */
+    padding-top: 100vh;
 }
 
 .site-header h1 {

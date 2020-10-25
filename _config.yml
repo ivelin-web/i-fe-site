@@ -2,8 +2,8 @@ title: Hyde
 email: ivelininqvorov@abv.bg
 description: This is scary, but awesome!
 destination: docs
-baseurl: ""
-# baseurl: "/paco-corp"
+# baseurl: ""
+baseurl: "/i-webdev"
 url: "" 
 twitter_username: ivelin
 github_username:  ivelin-web

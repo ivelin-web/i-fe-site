@@ -25,6 +25,10 @@
     border-bottom-right-radius: 0.7em;
 } 
 
+.main-nav > ul ul li a {
+    background: rgba(0, 0, 0, 0.7);
+}
+
 .main-nav li {
     display: block;
     list-style: outside none;
@@ -41,14 +45,14 @@
     text-transform: uppercase;
     outline: none;
     transition: color 0.3s ease;
-    background: rgba(0, 0, 0, 0.4);
 }
 
 .main-nav ul li a:focus,
-.main-nav ul li a:hover {
+.main-nav ul li a:hover,
+.main-nav ul li:hover > a {
     background: linear-gradient(to bottom, orange, rgba(0, 0, 0, 0));
     color: #FFF;
-    text-shadow: 1px 1px 1px orange; 
+    text-shadow: 0.5px 0.5px 0.5px orange; 
 }
 
 .main-nav > ul > li:hover > ul {

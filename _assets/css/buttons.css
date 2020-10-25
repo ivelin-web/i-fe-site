@@ -1,0 +1,18 @@
+.button {
+    display: block;
+    background: var(--color-main-link);
+    border: 2px solid var(--color-main-link);
+    color: #FFF;
+    padding: 0.6em 1.2em;
+    border-radius: 0.6em;
+    line-height: 1;
+}
+
+.button.button-primary {
+    transition: all 0.2s ease-in-out;
+}
+
+.button.button-primary:hover {
+    background: transparent;
+    color: var(--color-main-link);
+}
