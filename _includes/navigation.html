@@ -3,7 +3,7 @@
         {% for page in site.pages %}
         {% if page.url != '/feed.xml' and page.url != '/' %}
         <li>
-            <a id="{{ page.icon-name }}" href="{{ site.url }}/{{ page.url }}">
+            <a id="{{ page.icon-name }}" href="{{ baseurl.url }}/{{ page.url }}">
                 <span class="title">{{ page.title }}</span>
                 <span class="date">{{ page.data | date_to_string }}</span>
             </a>
