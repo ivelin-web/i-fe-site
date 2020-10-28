@@ -3,7 +3,7 @@ email: ivelininqvorov@abv.bg
 description: This is scary, but awesome!
 destination: docs
 # baseurl: ""
-baseurl: "/i-webdev"
+baseurl: "i-webdev"
 url: "" 
 twitter_username: ivelin
 github_username:  ivelin-web
