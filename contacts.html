@@ -3,15 +3,35 @@ layout: page
 title: Contacts
 permalink: /contacts/
 icon-name: contacts
+order: 4
 ---
 
 <article>
     <header>
         <h1>Contacts</h1>
     </header>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d187673.30869582985!2d23.183862423910988!3d42.69534680269995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa835e4285705d%3A0x1c6d9838c419ba63!2z0JHQvtGP0L3RgdC60LAg0YbRitGA0LrQstCwINC80YPQt9C10Lk!5e0!3m2!1sbg!2sbg!4v1603630564222!5m2!1sbg!2sbg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, fugiat animi aliquid soluta illum explicabo vel quod enim fuga suscipit atque asperiores accusantium. Dolorem numquam, blanditiis soluta hic excepturi aliquid!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quod quaerat minus sapiente quibusdam nostrum libero molestias, ratione repellat corrupti expedita labore vel quia. Libero non ipsum blanditiis deserunt earum.</p>
-    </section>
+    <div class="map-wrapper">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d187673.30869582985!2d23.183862423910988!3d42.69534680269995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa835e4285705d%3A0x1c6d9838c419ba63!2z0JHQvtGP0L3RgdC60LAg0YbRitGA0LrQstCwINC80YPQt9C10Lk!5e0!3m2!1sbg!2sbg!4v1603630564222!5m2!1sbg!2sbg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <form action="#" class="site-form">
+        <p>
+            <label for="email">E-mail</label>
+            <span class="input-wrapper">
+                <input type="email" name="email" id="email" placeholder="Enter your e-mail...">
+                <i class="far fa-envelope"></i>
+            </span>
+        </p>
+        <p>
+            <label for="name">Name</label>
+            <span class="input-wrapper">
+                <input type="text" name="name" id="name" placeholder="Enter your name...">
+                <i class="far fa-user"></i>
+            </span>
+        </p>
+        <p>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="2" placeholder="Enter your message..."></textarea>
+        </p>
+        <input class="button form-button" type="submit" value="Send">
+    </form>
 </article>

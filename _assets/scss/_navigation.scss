@@ -1,0 +1,60 @@
+.main-nav {
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    & > ul {
+        display: flex;
+    }
+
+    & > ul ul {
+        opacity: 0;
+        pointer-events: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        transition: opacity 0.3s ease-out;
+        overflow: hidden;
+        border-bottom-left-radius: 0.7em;
+        border-bottom-right-radius: 0.7em;
+    } 
+
+    & > ul ul li a {
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+    li {
+        display: block;
+        list-style: outside none;
+        border-image: linear-gradient(to bottom, orange, rgba(0, 0, 0, 0)) 1 100%;
+        margin-left: 0;
+        position: relative;
+    }
+
+    ul li a {
+        display: block;
+        padding: 0.5em 1em;
+        color: var(--color-main-link);
+        text-transform: uppercase;
+        outline: none;
+        transition: color 0.3s ease;
+    }
+
+    ul li a:focus,
+    ul li a:hover,
+    ul li:hover > a,
+    ul li.current > a {
+        background: linear-gradient(to bottom, orange, rgba(0, 0, 0, 0));
+        color: #FFF;
+        text-shadow: 0.5px 0.5px 0.5px orange; 
+    }
+
+    & > ul > li:hover > ul {
+        opacity: 1;
+        pointer-events: all;
+    }
+}

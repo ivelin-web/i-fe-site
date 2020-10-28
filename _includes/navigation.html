@@ -1,13 +1,19 @@
 <nav class="main-nav">
     <ul>
-        {% for page in site.pages %}
-        {% if page.url != '/feed.xml' and page.url != '/' %}
-        <li>
-            <a id="{{ page.icon-name }}" href="{{ site.baseurl }}{{ page.url }}">
-                <span class="title">{{ page.title }}</span>
-                <span class="date">{{ page.data | date_to_string }}</span>
+        {% assign sorted_page = site.pages | sort: 'order' %}
+        {% for navitem in sorted_page %}
+        {% if navitem.url != '/feed.xml' %}
+        <li {% if page.url == navitem.url %} class="current" {% endif %}>
+            <a id="{{ navitem.icon-name }}" href="{{ site.baseurl }}{{ navitem.url }}">
+                <span class="title">
+                    {% if navitem.url == '/' %}
+                    HOME
+                    {% else %}
+                    {{ navitem.title }}
+                    {% endif %}
+                </span>
             </a>
-            {% if page.title == 'Products' %}
+            {% if navitem.title == 'Products' %}
             <ul>
                 <li><a id="clothes" href="clothes.html">CLOTHES</a></li>
                 <li><a id="foods" href="foods.html">FOODS</a></li>
